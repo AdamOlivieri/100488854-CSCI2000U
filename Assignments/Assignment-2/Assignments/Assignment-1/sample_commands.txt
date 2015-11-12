@@ -1,0 +1,9 @@
+1) a) command prompt prints out hello world.
+b)command prompt print ever available word combination with the three sets in order from left to right.
+c)command prompt prints out the current Date and Time on the learning tool.
+d) command prompt prints out the current user's name.
+e) command prompt prints out the calender for year 2000.
+f) command prompt prints out an incomplete calender month of September where days 3-13 are missing.
+g) command prompt prints the learning tool's copyright and owndership details.
+h) command prompt prints the total 9 for 5+4.
+
