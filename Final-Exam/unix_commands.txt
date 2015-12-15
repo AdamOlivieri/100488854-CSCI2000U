@@ -4,7 +4,7 @@
 # except the two header lines?
 # Enter the relevant Unix command(s) used below.
 
-
+cat classlist.csv | tail -n +3 
 
 
 # part (b)
@@ -13,7 +13,7 @@
 # Enter the relevant Unix command(s) used below as well as the number
 # of students in the list.
 
-
+cat classlist.csv | tail -n +3 | wc -l
 
 
 # part (c)
@@ -24,7 +24,9 @@
 # Enter the relevant Unix command(s) used below as well as the names
 # of the first and last students in the new list.
 
+cat classlist.csv | tail -n +3 | sort -i
 
+Adam Holte as the first, and Zenia Mowrer as the last
 
 
 # part (d)
@@ -33,8 +35,8 @@
 # repeated in the class list?
 # Enter the relevant name(s) and the Unix command(s) below.
 
-
-
+cat classlist.csv | tail -n +3 | uniq -f 0 | cut -a  
+Diego Brand and Diego Dart are repeated
 
 # part (f) [BONUS]
 # Construct a Unix pipeline that extracts the last three digits of
